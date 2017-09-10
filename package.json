@@ -1,0 +1,33 @@
+{
+  "name": "mongoose_example",
+  "version": "1.0.0",
+  "description": "mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmfpes/node_mongoose.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "kyunam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmfpes/node_mongoose/issues"
+  },
+  "homepage": "https://github.com/xmfpes/node_mongoose#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7"
+  }
+}
