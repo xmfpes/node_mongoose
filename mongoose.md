@@ -32,7 +32,7 @@ models 하부에 ProductsModel.js 생성
 ```javascript
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var autoIncrement = require('mongoose-auto-incerment');
+var autoIncrement = require('mongoose-auto-increment');
 
 //Schema Create
 var ProductsSchema = new Schema({
